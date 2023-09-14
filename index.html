@@ -29,15 +29,12 @@
       margin: 0;
     }
 
-    body {
-      background-color: var(--light-gray);
-    }
-
-    .card-container {
+    main {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
+      background-color: var(--light-gray);
     }
 
     .card {
@@ -68,12 +65,11 @@
     .card p {
       font-size: 15px;
     }
-
-
   </style>
 </head>
+
 <body>
-  <div class="card-container">
+  <main>
     <div class="card">
       <img src="images/image-qr-code.png" alt="QR code image">
       <div class="card-description">
@@ -81,6 +77,6 @@
         <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
       </div>
     </div>
-  </div>
+  </main>
 </body>
 </html>
